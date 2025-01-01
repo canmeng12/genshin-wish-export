@@ -6,6 +6,11 @@ on:
   pull_request:
     branches: [ "master" ]
 
+  watch:
+    types: started
+  repository_dispatch:
+  workflow_dispatch:
+
 jobs:
   build:
     strategy:
