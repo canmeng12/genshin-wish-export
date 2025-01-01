@@ -196,6 +196,7 @@ const uigfJson = async () => {
   return result
 }
 
+
 const start = async () => {
   await initLookupTable()
   const result = await uigfJson()
